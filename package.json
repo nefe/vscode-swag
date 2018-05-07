@@ -1,0 +1,32 @@
+{
+  "name": "swag",
+  "displayName": "swag",
+  "description": "",
+  "version": "0.1.2",
+  "publisher": "jasonHzq",
+  "engines": {
+    "vscode": "^1.19.0"
+  },
+  "categories": ["Other"],
+  "activationEvents": ["workspaceContains:**/swag-config.json"],
+  "main": "./out/extension",
+  "contributes": {},
+  "scripts": {
+    "vscode:prepublish": "npm run compile",
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./",
+    "publish": "yarn && vsce publish",
+    "postinstall": "node ./node_modules/vscode/bin/install",
+    "test": "npm run compile && node ./node_modules/vscode/bin/test"
+  },
+  "devDependencies": {
+    "@types/mocha": "^2.2.42",
+    "@types/node": "^7.0.43",
+    "vsce": "^1.36.2",
+    "vscode": "^1.1.6"
+  },
+  "dependencies": {
+    "global": "^4.3.2",
+    "swag-engine": "0.1.20"
+  }
+}
