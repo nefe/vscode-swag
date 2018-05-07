@@ -22,7 +22,7 @@
 }
 ```
 
-代码模板：swagTemplate
+代码模板：swagTemplate.ts
 
 ```typescript
 import { Template } from "swag-engine";
