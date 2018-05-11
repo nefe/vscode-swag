@@ -206,7 +206,9 @@ export function updateBos() {
         return;
       }
 
-      let bo = boDiffs.find(bo => item.label === bo.name);
+      let bo = cmd.newDataStructure.definitions.find(
+        bo => item.label === bo.name
+      );
 
       vscode.window.withProgress(
         {
