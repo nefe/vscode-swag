@@ -1754,9 +1754,9 @@ supports-color@^4.0.0:
   dependencies:
     has-flag "^2.0.0"
 
-swag-engine@0.1.21:
-  version "0.1.21"
-  resolved "http://registry.npm.alibaba-inc.com/swag-engine/download/swag-engine-0.1.21.tgz#124f22f44f1b13d158276c7f04c6cdd585f238d7"
+swag-engine@0.1.22:
+  version "0.1.22"
+  resolved "http://registry.npm.alibaba-inc.com/swag-engine/download/swag-engine-0.1.22.tgz#68f011afffe692a31153e8acf7987ac6d09b15e2"
   dependencies:
     chalk "^2.3.0"
     commander "^2.11.0"
